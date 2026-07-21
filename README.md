@@ -15,6 +15,17 @@ An idempotent, production-ready Bash automation tool designed to set up developm
 
 ---
 
+## Supported Platforms
+
+| Operating System | Package Manager |
+|------------------|-----------------|
+| Debian | `apt` |
+| Ubuntu | `apt` |
+| Kali Linux | `apt` |
+| macOS | `brew` |
+
+---
+
 ## Prerequisites
 
 Before running the script, ensure you have:
@@ -87,27 +98,6 @@ The automation script performs the following steps:
 6. Skips any resources that are already correctly configured.
 
 Because the script is **idempotent**, it can be executed multiple times without duplicating installations or overwriting unchanged configurations.
-
----
-
-## Safety Features
-
-- Timestamped backups before modifying files
-- Dry-run mode for safe previews
-- Error handling using `set -euo pipefail`
-- Color-coded status messages
-- Idempotent execution to avoid duplicate work
-
----
-
-## Supported Platforms
-
-| Operating System | Package Manager |
-|------------------|-----------------|
-| Debian | `apt` |
-| Ubuntu | `apt` |
-| Kali Linux | `apt` |
-| macOS | `brew` |
 
 ---
 
