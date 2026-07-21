@@ -1,0 +1,13 @@
+```text
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Backup directories generated during local testing
+.dotfiles_backup_*
+
+# Editor temp files
+*.swp
+*.tmp
+.vscode/
+.idea/
